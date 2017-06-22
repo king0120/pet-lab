@@ -1,5 +1,5 @@
-class Pet < ActiveRecord::Base
-  # TODO: associate with owner
+class Pet < ApplicationRecord
+    # TODO: associate with owner
 
   # TODO: validate name and breed
 
@@ -13,6 +13,4 @@ class Pet < ActiveRecord::Base
   # calculates age of pet in years
   def age
     # stretch
-  end
-
 end

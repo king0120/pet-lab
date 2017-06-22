@@ -1,5 +1,5 @@
-class Owner < ActiveRecord::Base
-  # TODO: add validations
+class Owner < ApplicationRecord
+     # TODO: add validations
 
   before_save :normalize_phone_number
 
